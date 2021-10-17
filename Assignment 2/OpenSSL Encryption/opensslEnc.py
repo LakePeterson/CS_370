@@ -1,10 +1,10 @@
 ##########################################################################
 ## * Program: opensslEnc.py
 ## * Author: Lake Peterson
-## * Date: October 15, 2021
-## * Description: Matches a given ciphertexxt to an encrypted ciphertext from which a matching key is reported if found
-## * Input: No input is necessary in order for this program to run
-## * Output: Outputs one directory and seven room files
+## * Date: October 16, 2021
+## * Description: Matches a given ciphertext to an encrypted ciphertext from which a matching key is reported if found
+## * Input: A .txt file must be provided
+## * Output: Determines whther or not a key is found
 ##########################################################################
 
 ##########################################################################
@@ -94,7 +94,6 @@ def matchWord(wordList):
                 return word
         else:
             continue
-
 
 ##########################################################################
 ## * Function: main
