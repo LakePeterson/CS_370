@@ -1,5 +1,5 @@
 ##########################################################################
-## * Program: bloomfiltyer.py
+## * Program: bloomFilter.py
 ## * Author: Lake Peterson
 ## * Date: October 31, 2021
 ## * Description: Bloom Filter script for weak password detection given a set of bad passwords
